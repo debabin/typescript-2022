@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}
