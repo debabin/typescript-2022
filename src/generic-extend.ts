@@ -1,8 +1,10 @@
-function getPropertByKey<Type, Key extends keyof Type>(obj: Type, key: Key) {
-  return obj[key];
+function getKey<Key extends string>(key: Key) {
+  return key;
 }
 
-let x = { a: 1, b: 2, c: 3, d: 4 };
+getKey("a");
+getKey(123);
+getKey([]);
 
-getProperty(x, "a");
-getProperty(x, "m");
+getKey<{ name: string }>("error");
+getKey<"first" | "second">("first");

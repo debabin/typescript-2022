@@ -1,5 +1,5 @@
-type AttachFile<Type extends string = "json"> = {
-  type: Type;
+type AttachFile<FileType extends string = "json"> = {
+  type: FileType;
 };
 
 declare const json: AttachFile;

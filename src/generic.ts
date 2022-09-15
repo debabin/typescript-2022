@@ -6,6 +6,9 @@ interface WraperInterface<T> {
   data: T;
 }
 
+type RandomData = { name: string };
+declare const wrapedData: WraperType<RandomData> | WraperInterface<RandomData>;
+
 function getProperty<Type>(obj: Type, key: keyof Type) {
   return obj[key];
 }
