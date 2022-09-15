@@ -24,3 +24,7 @@ class Iphone implements Phone {
     console.log("... do some action for call", number);
   };
 }
+
+
+
+

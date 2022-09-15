@@ -11,7 +11,4 @@ function getProperty<Type>(obj: Type, key: keyof Type) {
 }
 
 getProperty({ name: "Dima" }, "name");
-getProperty(
-  { title: "New video", des: "Best video about ts", newKey: "new" },
-  "newKey"
-);
+getProperty({ title: "New video", des: "Best video about ts" }, "des");

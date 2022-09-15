@@ -14,3 +14,7 @@ class Derived extends Base {
 
 const d = new Derived();
 d.printName();
+
+
+
+
