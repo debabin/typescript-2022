@@ -7,6 +7,7 @@ type ApiError = {
   success: false;
   error: string;
 };
+
 type ApiResponse<T> = ApiError | ApiResult<T>;
 
 declare const response: ApiResponse<{ name: string }>;

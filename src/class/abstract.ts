@@ -15,6 +15,10 @@ class Derived extends Base {
 const d = new Derived();
 d.printName();
 
+namespace MyLibrary {
+  export type Book = {
+    name: string;
+  };
+}
 
-
-
+declare const Book: MyLibrary.Book;

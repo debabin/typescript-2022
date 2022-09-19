@@ -4,7 +4,7 @@ const isGood: boolean = true;
 
 // arrays
 const animals: Array<string> = ["🦄", "🐳", "🐊", "🐶"];
-const years: Array<number> = [1999, 2001, 2020];
+const years: number[] = [1999, 2001, 2020];
 
 const user: null = null;
 const sum: undefined = undefined;
